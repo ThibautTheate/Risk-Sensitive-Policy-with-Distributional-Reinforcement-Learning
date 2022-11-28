@@ -1,0 +1,19 @@
+# Python version
+python==3.7.7
+
+# Python basic packages
+numpy
+scipy
+matplotlib
+pandas
+
+# Deep Learning framework
+torch
+tensorboard
+umnn
+
+# RL environment packages
+gym
+
+# Extra packages
+tqdm

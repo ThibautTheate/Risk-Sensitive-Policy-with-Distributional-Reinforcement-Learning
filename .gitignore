@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# CUSTOM for this particular project
+.DS_Store
+/Figures/Distributions/*
+/Figures/Performance/*
+!/Figures/Distributions/__init__.py
+!/Figures/Performance/__init__.py
