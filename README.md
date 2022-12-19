@@ -1,7 +1,7 @@
-# Risk-Sensitive Policy with Distributional Reinforcemet Learning
+# Risk-Sensitive Policy with Distributional Reinforcement Learning
 
 Experimental code supporting the results presented in the scientific research paper:
-> Thibaut Théate and Damien Ernst. "Risk-Sensitive Policy with Distributional Reinforcemet Learning." (2022).
+> Thibaut Théate and Damien Ernst. "Risk-Sensitive Policy with Distributional Reinforcement Learning." (2022).
 > [[arxiv]](https://arxiv.org/abs/)
 
 
@@ -43,9 +43,9 @@ The benchmark environments supported are:
 * RiskyTransitions,
 * RiskyEnvironment.
 
-The number of episodes for training the DRL algorithm may also be specified by the user through the argument "-episodes". The parameters of the DRL algorithms can be set with the argument "-parameters" and by providing the name of the .json file containing these parameters within the "Parameters" folder.
+Additionally, the number of episodes for training the DRL algorithm may also be specified by the user through the argument "-episodes". The parameters of the DRL algorithms can be set with the argument "-parameters" and by providing the name of the .json file containing these parameters within the "Parameters" folder.
 
-For more advanced tests and manipulations, please directly refer to the code.
+For more advanced tests and manipulations, please directly refer to the code itself.
 
 
 
@@ -54,8 +54,8 @@ For more advanced tests and manipulations, please directly refer to the code.
 If you make use of this experimental code, please cite the associated research paper:
 
 ```
-@inproceedings{Théate2022,
-  title={Risk-Sensitive Policy with Distributional Reinforcemet Learning},
+@inproceedings{Theate2022,
+  title={Risk-Sensitive Policy with Distributional Reinforcement Learning},
   author={Thibaut Théate and Damien Ernst},
   year={2022}
 }

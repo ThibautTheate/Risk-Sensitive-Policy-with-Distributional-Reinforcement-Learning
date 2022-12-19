@@ -185,7 +185,7 @@ class UMDQN_C(DQN):
                         ax1.axvline(x=utility[a].cpu(), linestyle='-.', label=''.join(['Action ', str(a), ' utility']), color=colors[a])
                         ax2.axvline(x=utility[a].cpu(), linestyle='-.', label=''.join(['Action ', str(a), ' utility']), color=colors[a])
                 ax1.set_xlabel('Random return')
-                ax1.set_ylabel('Cumulative Density Function (CDF)')
+                ax1.set_ylabel('Cumulative Distribution Function (CDF)')
                 ax2.set_xlabel('Random return')
                 ax2.set_ylabel('Probability Density Function (PDF)')
                 ax1.legend()
